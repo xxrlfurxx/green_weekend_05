@@ -119,7 +119,7 @@
         <li>HTML4</li>
         <li>HTML5</li>
      </ul>
-    <li>
+    </li>
     <li>
       CSS
       <ul>
