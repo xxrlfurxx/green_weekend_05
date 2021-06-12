@@ -36,11 +36,11 @@
 </body>
 ```
 
-### HTML Attribute
+### HTML Attribute (영어로 사용하는걸 추천 / css 에서 사용하는 단어가 달라서)
 
 > HTML 속성
 > HTML 요소의 부가 정보
-> 속성이름 = "속성"
+> 속성이름 = "속성값"
 
 ```
 <a href="http://www.naver.com"></a>
@@ -87,4 +87,63 @@
 ```
 <br> - Break
 ```
+### 목록 태그
 
+> 순서없는 목록 ul(Unordered List)
+> 순서있는 목록 ol(Ordered List)
+> 목록 항목 li(List Item)
+
+```
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+</ol>
+```
+>포함관계(Nested)로 구성된 목록 - 코딩할때 밖에서 안쪽 방향 순서로
+- HTML
+  -HTML4
+  -HTML5
+- CSS
+  -CSS2
+  -CSS3
+  ```
+  <ul>
+    <li>
+      HTML
+      <ul>
+        <li>HTML4</li>
+        <li>HTML5</li>
+     </ul>
+    <li>
+    <li>
+      CSS
+      <ul>
+        <li>CSS2</li>
+        <li>CSS3</li>
+      </ul>
+    </li>
+  </ul>
+  ```
+
+> 설명 목록(Description List) - dl
+
+```
+<dl>
+  <dt>HTML</dt> (dt : Description Title)
+  <dd>표준 마크업 언어</dd> (dd : Description Data)
+</dl>
+```
+
+### HTML Hyper Link
+
+> 하이퍼링크 a(anchor)
+> 
+> attribute(속성) : herf(Hypertext Reference) : 연결되는 웹 문서의 URL
+```
+<a> herf="http//www.naver.com">네이버로 이동</a>
+```
