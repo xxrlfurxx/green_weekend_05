@@ -204,3 +204,9 @@ https://www.tablesgenerator.com/html_tables
 > mute=1, 0
 > 
 > loop=1, 0 (playlist와 같이 사용)
+> 
+>텍스트는 HTML문서에 직접 입력되는 콘텐츠
+>
+> 이미지와 동영상, 오디오 콘텐츠는 외부에서 만들어지는 콘텐츠
+> 
+> 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 => 임베드(embed) 콘텐츠
