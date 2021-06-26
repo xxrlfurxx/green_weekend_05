@@ -230,3 +230,18 @@ https://freebiesbug.com/psd-freebies/website-template/page/2/
 >
 >span
 
+### Block, Inline
+
+> 모든 elemenst는 각각의 고유영역을 가지고 있음.
+> 
+> block element, Inline element 구분은 이들 영역 화면 표시 방식에 따른 구분
+>(** 포함하는 요소 : 부모요소, 포함되는 요소 : 자식요소)
+>
+> block element는 줄바꿈 되어 표시 - block element 영역의 가로 너비가 부모요소에 100% 채워짐.
+> 
+> block elemnet에는 위,아래 여뱍을 적용할 수 있음
+> 
+> Inline element는 같은 줄에 나란히 표시 - Inline element 영역의 가로 너비가 콘텐츠 크기 만큼만 정해짐.
+> 
+> Inline element는 위,아래 여백을 적용할 수 없음
+
