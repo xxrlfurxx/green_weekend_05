@@ -284,3 +284,23 @@ https://freebiesbug.com/psd-freebies/website-template/page/2/
 > Internal CSS : 같은 HTML 문서내에 head 태그 영역에 stlye 태그를 사용하여 입력
 >
 > Inline CSS : 시작태그에 stlye attribute를 사용해서 입력 => javascript에서 css를 제어할 때 사용
+
+### naming할 때 표기방식
+
+> id/class naming, 변수/함수/class naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
+> 
+> 표기방식을 사용하는 이유
+>   
+> - naming할 때 두 단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
+> 
+> - 단어의 시작부분에 첫 글자를 대문자로 변경, 특수기호를 사용
+> 
+> 표기방식 종류
+>
+> snake case : gnb_depth1 => 파일/폴더
+>
+> kebab case : gnb-deoth1 => id/class
+>
+> camel case : gnbDepth1 => javascript의 변수,함수
+>
+> pascal case : GnbDepth1 => javascript의 클래스
