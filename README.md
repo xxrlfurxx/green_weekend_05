@@ -262,3 +262,25 @@ https://freebiesbug.com/psd-freebies/website-template/page/2/
 > 각 선언에는 콜론으로 구분 된 CSS 속성(Property) 이름과 값(value)이 포함됩니다.
 
 > 여러 CSS 선언은 세미콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
+
+### id, class
+
+>HTML element에 특정 이름을 사용할 때 id, class attribute를 사용해서 이름을 붙여줄 수 있음.
+>
+>id는 동일한 이름이 사용된 HTML element가 여러개이면 논리적 오류가 발생
+>
+>id는 HTML 문서내에서 고유해야 함.
+>
+>class는 동일한 이름이 여러 개의 element에 사용되어서 공통 디자인 요소나 공통 기능을 적용할 수 있음.
+>
+>id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용. => 백엔드 개발에서 주로 사용
+>
+>class는 주로 css 스타일 적용, javascript 인터랙션 적용할때 사용. => 프론트엔드 개발에서 주로 사용
+
+### CSS 작성 방법
+
+> External CSS : 파일 분리
+> 
+> Internal CSS : 같은 HTML 문서내에 head 태그 영역에 stlye 태그를 사용하여 입력
+>
+> Inline CSS : 시작태그에 stlye attribute를 사용해서 입력 => javascript에서 css를 제어할 때 사용
