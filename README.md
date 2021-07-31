@@ -610,7 +610,7 @@ background:url(image.jpg);
     }
     
     
-    printName('javascript')
+    printName('javascript');
    ```
    
    > 익명함수(anonymous function) : 이름없는 함수, 즉시 실행이 필요한 경우 사용
