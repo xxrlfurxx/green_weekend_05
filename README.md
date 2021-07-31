@@ -554,7 +554,26 @@ background:url(image.jpg);
   
   ## Javascript
   
+  ### Object
+  
+  > 동작, 기능의 대상 : 객체
+  > 객체 : propeerty, method
+  ```
+  // 객체 : car
+  
+  //property
+  car.weight = 300;
+  
+  // method
+  car.start()
+  ```
+  
   ### DOM
+  
+  > HTML Element를 대상화시켜 객체로 만든 것 : DOM(Document Object Model)
+  > d
+  > Javascript Dom : Javascript에서 HTML Element를 접근, 사용할 수 있도록 만든 DOM
+  > jQuery DOM : Javascript DOM보다 좀 더 사용이 쉽도록 jQuery에서 만든 DOM
   
   ## Event
   > 상황 변화에 따라 발생되는 신호
@@ -569,9 +588,30 @@ background:url(image.jpg);
 
   > Event 감지 함수
   > - javascript : addEventListenner()
-  > - jquery : on()
+  > - jquery : on() // 사용 이벤트 명칭 : click, mouseenter, mouseleave
 
-  함수
+   ### 함수
+   
+   > 프로그래밍 코드 블록
+   > 
+   > 특정 실행 코드 부분을 그룹화
+   ```
+   function : 함수 선언 키워드(예약어)
+   
+   function 함수이름(매개변수1, 매개변수2) {
+    // 실행코드
+    }
+    
+    // 함수 사용(호출)
+    함수이름(매개변수값);
+    
+    function printName(name) {
+      console.log(name);
+    }
+    
+    
+    printName('javascript')
+   ```
   
   
   
